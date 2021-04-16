@@ -2,10 +2,10 @@
 #include <MsTimer2.h>
 
 // LiquidCrystal(rs, rw, enable, d4, d5, d6, d7)
-LiquidCrystal lcd(4, 5, 6, 10, 11, 12, 13);
+LiquidCrystal lcd(13, 12, 11, 10, 9, 8, 7);
 
-#define SELECT_NEXT_PIN 9
-#define ADD_TIME_PIN 8
+#define SELECT_NEXT_PIN 2
+#define ADD_TIME_PIN 1
 
 boolean isConfig = false;
 
