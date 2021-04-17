@@ -14,13 +14,13 @@ unsigned long seconds = 0;
 unsigned long tmp_seconds = seconds;
 int cursor = 0;
 
-// col, row, max, addTimeValue
-char cursorPostions[5][4] = {
-    {1, 0, 86400, 3600},  //  hour
-    {4, 0, 3600, 60},     //  minute
-    {7, 0, 60, 1},        //  second
-    {10, 0, -1, 0},       //  OK
-    {10, 1, -1, 0},       //  Cancel
+// col, row
+char cursorPostions[5][2] = {
+    {1, 0},   //  hour
+    {4, 0},   //  minute
+    {7, 0},   //  second
+    {10, 0},  //  OK
+    {10, 1},  //  Cancel
 };
 
 void countUp() {
